@@ -1,0 +1,44 @@
+# system files
+.DS_Store
+
+# dependencies
+node_modules
+
+# yarn 2 zero-installs
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+!.yarn/unplugged
+!.yarn/unplugged/*/node_modules
+
+# logs
+*.log
+debug
+
+# npm package tars
+*.tgz
+
+# npm config
+.npmrc
+.cache
+.config
+.npm
+
+# dotenv environment file
+*.env
+
+# Jest code coverage directory
+coverage
+
+# code editor project files
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# nuzt build directories
+.nuxt
+.nuxt-storybook

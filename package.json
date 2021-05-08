@@ -1,0 +1,16 @@
+{
+  "name": "nuxt-storybook-yarn2",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt-edge": "^2.16.0-27007211.8130bc13"
+  },
+  "devDependencies": {
+    "@nuxtjs/storybook": "^4.0.2",
+    "postcss": "^8.2.14"
+  }
+}
